@@ -48,3 +48,13 @@ table {
 }
 
 /* Estilo da Pagina começa desse ponto. */
+
+body {
+	color: white;
+	background-image: url(../images/vialactea.jpg);
+}
+
+h1 {
+	font-size: 22pt;
+	
+}
