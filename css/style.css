@@ -49,13 +49,24 @@ table {
 
 /* Estilo da Pagina começa desse ponto. */
 
+.header {
+	display: block;
+	margin-top: -1px;
+	margin-bottom: 20px;
+	background-color: black;
+	width: 100%;
+	height: 55px;
+}
+
 body {
 	color: white;
 	background-image: url(../images/vialactea.jpg);
 }
 
 h1 {
+	font-family: 'Black Ops One', cursive;
 	font-size: 22pt;
+	margin-top: 25px;
 	margin-bottom: 120px;
 	
 	
