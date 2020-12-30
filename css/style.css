@@ -50,24 +50,104 @@ table {
 /* Estilo da Pagina começa desse ponto. */
 
 .header {
-	display: block;
+	display: flex;
 	margin-top: -1px;
-	margin-bottom: 20px;
-	background-color: black;
+	margin-bottom: 10px;
+	background-color: rgb(63, 63, 63);
 	width: 100%;
-	height: 55px;
+	height: 75px;
 }
 
-body {
-	color: white;
+.logo {
+	width: 360px;
+	height: 75px;
+	margin-left: 10px;
+}
+
+.logo-img{
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 320px;
+}
+
+.menubar {
+	display: inline;
+	width: 100%;
+	height: 50%;
+	margin-top: 10px;
+	margin-left: 100px;
+		
+}
+
+.button_menubar {	
+	margin:20px;
+	font-family: 'Black Ops One', cursive ;
+}
+
+.button_menubar:link, .button_menubar:visited {
+	background-color:rgb(63, 63, 63);
+	color: rgb(196, 6, 6);
+	
+	/*border: 1px solid #FFD42A;*/
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+.button_menubar:hover, .button_menubar:active {
+	background-color: #FFD42A;
+	color: rgb(0, 0, 0);
+  }
+	
+
+section{
+	background-color: rgba(255, 255, 255, 0.8);
+	
+}
+
+body {		
 	background-image: url(../images/vialactea.jpg);
+	background-attachment: fixed;
+}
+
+section{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.container{
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 h1 {
+	color: rgb(0, 0, 0);
 	font-family: 'Black Ops One', cursive;
-	font-size: 22pt;
+	font-size: 30pt;
 	margin-top: 25px;
 	margin-bottom: 120px;
-	
+		
+}
+
+h2{
+	color: rgb(0, 0, 0);
+	font-family:'Times New Roman', Times, serif;
+	font-size: 24pt;
+	margin-bottom: 25px;	
+}
+
+p {
+	color: rgb(0, 0, 0);
+	font-family:'Times New Roman', Times, serif;
+	font-size: 18px;
+
+}
+
+footer {	
+	background-color: rgb(63, 63 , 63);
+	color: white;
+	text-align: center;
+	height: 50px;
 	
 }
