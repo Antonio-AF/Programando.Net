@@ -53,7 +53,7 @@ table {
 	display: flex;
 	margin-top: -1px;
 	margin-bottom: 10px;
-	background-color: rgb(63, 63, 63);
+	background-color: rgba(63, 63, 63, 0.8);
 	width: 100%;
 	height: 75px;
 }
@@ -85,10 +85,10 @@ table {
 }
 
 .button_menubar:link, .button_menubar:visited {
-	background-color:rgb(63, 63, 63);
+	background-color:rgba(63, 63, 63, 0.3);
 	color: rgb(196, 6, 6);
 	
-	/*border: 1px solid #FFD42A;*/
+	border: 1px solid #FFD42A;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -97,7 +97,7 @@ table {
   
 .button_menubar:hover, .button_menubar:active {
 	background-color: #FFD42A;
-	color: rgb(0, 0, 0);
+	color: rgba(63, 63, 63);
   }
 	
 
@@ -117,16 +117,25 @@ section{
 }
 
 .container{
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 30px;
+	
+	
+}
+
+.programando_net {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
 }
 
 h1 {
 	color: rgb(0, 0, 0);
 	font-family: 'Black Ops One', cursive;
 	font-size: 30pt;
-	margin-top: 25px;
-	margin-bottom: 120px;
+	text-align: center;
+	
 		
 }
 
@@ -144,8 +153,17 @@ p {
 
 }
 
+.image_html {
+	margin-left:0px;
+}
+
+.image_html_png {
+	width: 250px;
+	height: 180px;
+}
+
 footer {	
-	background-color: rgb(63, 63 , 63);
+	background-color: rgba(63, 63 , 63, 0.8);
 	color: white;
 	text-align: center;
 	height: 50px;
